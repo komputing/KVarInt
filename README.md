@@ -2,9 +2,7 @@
 
 # KVarInt
 
-Kotlin library providing a [okio](https://square.github.io/okio) kvarint reader. 
-It is leveraging the kotlin unsigned types. 
-As these are experimental currently - this library is also considered experimental. 
+Kotlin library providing a [okio](https://square.github.io/okio) kvarint reader
 
 ## Usage
 
