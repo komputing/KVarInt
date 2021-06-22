@@ -30,9 +30,9 @@ dependencies {
     "implementation"("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
     "implementation"("com.squareup.okio:okio:${Versions.okio}")
 
-    "testCompile"("org.junit.jupiter:junit-jupiter-api:${Versions.jupiter}")
-    "testCompile"("org.junit.jupiter:junit-jupiter-params:${Versions.jupiter}")
-    "testRuntime"("org.junit.jupiter:junit-jupiter-engine:${Versions.jupiter}")
+    "testImplementation"("org.junit.jupiter:junit-jupiter-api:${Versions.jupiter}")
+    "testImplementation"("org.junit.jupiter:junit-jupiter-params:${Versions.jupiter}")
+    "testRuntimeOnly"("org.junit.jupiter:junit-jupiter-engine:${Versions.jupiter}")
 
     "testImplementation"("org.jetbrains.kotlin:kotlin-test")
     "testImplementation"("com.google.truth:truth:1.0.1")
