@@ -1,12 +1,8 @@
 package org.komputing.kvarint
 
 import okio.BufferedSink
-import okio.BufferedSource
 import java.lang.IllegalArgumentException
-import kotlin.UInt.Companion.MIN_VALUE
-import kotlin.experimental.and
 
-@ExperimentalUnsignedTypes
 @Throws(IllegalArgumentException::class)
 fun BufferedSink.writeVarUInt(value: UInt) {
     var currentValue = value

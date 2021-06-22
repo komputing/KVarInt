@@ -2,10 +2,7 @@ package org.komputing.kvarint
 
 import okio.BufferedSource
 import java.lang.IllegalArgumentException
-import kotlin.UInt.Companion.MIN_VALUE
-import kotlin.experimental.and
 
-@ExperimentalUnsignedTypes
 @Throws(IllegalArgumentException::class)
 fun BufferedSource.readVarUInt(): UInt {
     var result = 0U
